@@ -3,4 +3,4 @@ project(tankDB)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(tankDB library.cpp library.h lock.h)
+add_library(tankDB lock.h lock.cpp error.cpp error.h)

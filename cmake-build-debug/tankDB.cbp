@@ -84,10 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/striker/CLionProjects/tankDB/error.cpp">
+			<Option target="tankDB"/>
+		</Unit>
+		<Unit filename="/home/striker/CLionProjects/tankDB/error.h">
+			<Option target="tankDB"/>
+		</Unit>
 		<Unit filename="/home/striker/CLionProjects/tankDB/library.cpp">
 			<Option target="tankDB"/>
 		</Unit>
 		<Unit filename="/home/striker/CLionProjects/tankDB/library.h">
+			<Option target="tankDB"/>
+		</Unit>
+		<Unit filename="/home/striker/CLionProjects/tankDB/lock.cpp">
 			<Option target="tankDB"/>
 		</Unit>
 		<Unit filename="/home/striker/CLionProjects/tankDB/lock.h">

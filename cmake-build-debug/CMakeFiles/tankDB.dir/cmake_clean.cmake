@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tankDB.dir/library.cpp.o"
+  "CMakeFiles/tankDB.dir/lock.cpp.o"
+  "CMakeFiles/tankDB.dir/error.cpp.o"
   "libtankDB.pdb"
   "libtankDB.a"
 )

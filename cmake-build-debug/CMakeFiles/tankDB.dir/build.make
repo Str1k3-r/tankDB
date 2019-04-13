@@ -70,17 +70,47 @@ CMakeFiles/tankDB.dir/library.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tankDB.dir/library.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/striker/CLionProjects/tankDB/library.cpp -o CMakeFiles/tankDB.dir/library.cpp.s
 
+CMakeFiles/tankDB.dir/lock.cpp.o: CMakeFiles/tankDB.dir/flags.make
+CMakeFiles/tankDB.dir/lock.cpp.o: ../lock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/striker/CLionProjects/tankDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tankDB.dir/lock.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tankDB.dir/lock.cpp.o -c /home/striker/CLionProjects/tankDB/lock.cpp
+
+CMakeFiles/tankDB.dir/lock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tankDB.dir/lock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/striker/CLionProjects/tankDB/lock.cpp > CMakeFiles/tankDB.dir/lock.cpp.i
+
+CMakeFiles/tankDB.dir/lock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tankDB.dir/lock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/striker/CLionProjects/tankDB/lock.cpp -o CMakeFiles/tankDB.dir/lock.cpp.s
+
+CMakeFiles/tankDB.dir/error.cpp.o: CMakeFiles/tankDB.dir/flags.make
+CMakeFiles/tankDB.dir/error.cpp.o: ../error.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/striker/CLionProjects/tankDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tankDB.dir/error.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tankDB.dir/error.cpp.o -c /home/striker/CLionProjects/tankDB/error.cpp
+
+CMakeFiles/tankDB.dir/error.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tankDB.dir/error.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/striker/CLionProjects/tankDB/error.cpp > CMakeFiles/tankDB.dir/error.cpp.i
+
+CMakeFiles/tankDB.dir/error.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tankDB.dir/error.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/striker/CLionProjects/tankDB/error.cpp -o CMakeFiles/tankDB.dir/error.cpp.s
+
 # Object files for target tankDB
 tankDB_OBJECTS = \
-"CMakeFiles/tankDB.dir/library.cpp.o"
+"CMakeFiles/tankDB.dir/library.cpp.o" \
+"CMakeFiles/tankDB.dir/lock.cpp.o" \
+"CMakeFiles/tankDB.dir/error.cpp.o"
 
 # External object files for target tankDB
 tankDB_EXTERNAL_OBJECTS =
 
 libtankDB.a: CMakeFiles/tankDB.dir/library.cpp.o
+libtankDB.a: CMakeFiles/tankDB.dir/lock.cpp.o
+libtankDB.a: CMakeFiles/tankDB.dir/error.cpp.o
 libtankDB.a: CMakeFiles/tankDB.dir/build.make
 libtankDB.a: CMakeFiles/tankDB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/striker/CLionProjects/tankDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libtankDB.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/striker/CLionProjects/tankDB/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libtankDB.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/tankDB.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tankDB.dir/link.txt --verbose=$(VERBOSE)
 

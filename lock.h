@@ -5,7 +5,6 @@
 #ifndef TANKDB_LOCK_H
 #define TANKDB_LOCK_H
 
-#endif //TANKDB_LOCK_H
 
 #include <pthread.h>
 
@@ -67,3 +66,5 @@ namespace tankDB {
     }
 
 }
+#endif //TANKDB_LOCK_H
+

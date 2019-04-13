@@ -123,6 +123,33 @@ tankDB/fast:
 	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/build
 .PHONY : tankDB/fast
 
+error.o: error.cpp.o
+
+.PHONY : error.o
+
+# target to build an object file
+error.cpp.o:
+	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/error.cpp.o
+.PHONY : error.cpp.o
+
+error.i: error.cpp.i
+
+.PHONY : error.i
+
+# target to preprocess a source file
+error.cpp.i:
+	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/error.cpp.i
+.PHONY : error.cpp.i
+
+error.s: error.cpp.s
+
+.PHONY : error.s
+
+# target to generate assembly for a file
+error.cpp.s:
+	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/error.cpp.s
+.PHONY : error.cpp.s
+
 library.o: library.cpp.o
 
 .PHONY : library.o
@@ -150,6 +177,33 @@ library.cpp.s:
 	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/library.cpp.s
 .PHONY : library.cpp.s
 
+lock.o: lock.cpp.o
+
+.PHONY : lock.o
+
+# target to build an object file
+lock.cpp.o:
+	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/lock.cpp.o
+.PHONY : lock.cpp.o
+
+lock.i: lock.cpp.i
+
+.PHONY : lock.i
+
+# target to preprocess a source file
+lock.cpp.i:
+	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/lock.cpp.i
+.PHONY : lock.cpp.i
+
+lock.s: lock.cpp.s
+
+.PHONY : lock.s
+
+# target to generate assembly for a file
+lock.cpp.s:
+	$(MAKE) -f CMakeFiles/tankDB.dir/build.make CMakeFiles/tankDB.dir/lock.cpp.s
+.PHONY : lock.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tankDB"
 	@echo "... edit_cache"
+	@echo "... error.o"
+	@echo "... error.i"
+	@echo "... error.s"
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
+	@echo "... lock.o"
+	@echo "... lock.i"
+	@echo "... lock.s"
 .PHONY : help
 
 
