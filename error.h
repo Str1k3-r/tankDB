@@ -11,7 +11,7 @@ namespace tankDB {
     class Error {
 
     public:
-        enum error_statements {
+        enum error_codes {
             SUCCESS = 0,
             NO_MEMORY = 1,
             OUT_OF_BOUND = 2,
@@ -39,8 +39,8 @@ namespace tankDB {
             NO_DB
         };
 
-        static const int ERROR_CODE;
-        static const char *error_str[];
+        static const int ERROR_CODE_LIMIT;
+        static const char *error_statements[];
 
         static const char *get_error_str(int err);
     };
