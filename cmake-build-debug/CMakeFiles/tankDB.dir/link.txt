@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtankDB.a  CMakeFiles/tankDB.dir/library.cpp.o
+/usr/bin/ranlib libtankDB.a

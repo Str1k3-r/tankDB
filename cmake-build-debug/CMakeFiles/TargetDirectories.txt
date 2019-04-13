@@ -1,0 +1,3 @@
+/home/striker/CLionProjects/tankDB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/striker/CLionProjects/tankDB/cmake-build-debug/CMakeFiles/tankDB.dir
+/home/striker/CLionProjects/tankDB/cmake-build-debug/CMakeFiles/edit_cache.dir
