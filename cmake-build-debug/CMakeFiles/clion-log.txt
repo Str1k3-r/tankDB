@@ -1,4 +1,4 @@
-/snap/clion/67/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/striker/CLionProjects/tankDB
+/snap/clion/68/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/striker/CLionProjects/tankDB
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/striker/CLionProjects/tankDB/cmake-build-debug
